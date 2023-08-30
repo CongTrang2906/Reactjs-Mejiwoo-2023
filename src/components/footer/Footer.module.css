@@ -1,0 +1,17 @@
+.content-footer{
+    background-color: #000;
+ }
+ .footer-all{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .title-footer{
+     display: flex;
+     align-items: center;
+     color: #FFFFFF;
+     margin: 13px 0 12px 0;
+     font-size: 16px;
+     font-weight: 400;
+ }
+ 

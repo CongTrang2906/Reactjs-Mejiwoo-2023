@@ -1,0 +1,41 @@
+.slider-seller {
+  position: relative;
+  padding-top: 37.22222%;
+  background: url("../../assets/img/slideSeller.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.text-content-seller {
+  position: absolute;
+  bottom: 45%;
+  color: #000;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.text-heading-seller {
+  font-size: 48px;
+  font-weight: 600;
+}
+.text-description-seller {
+  font-size: 16px;
+  font-weight: 400;
+  width: 345px;
+  height: 54px;
+  margin-top: 12px;
+}
+.btn-shopnow {
+  display: inline-flex;
+  padding: 12px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+}
+.btn-shopnow:hover {
+  background-color: rgba(217, 217, 217, 0.35);
+}

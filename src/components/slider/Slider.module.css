@@ -1,0 +1,43 @@
+.slider {
+  position: relative;
+  /* tính tỷ lệ  */
+  padding-top: 37.22222%;
+  background: url("../../assets/img/slide.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.text-content {
+  position: absolute;
+  bottom: 40%;
+  color: #000;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.text-heading {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.text-heading-title {
+  color: #000;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.text-description {
+  width: 282px;
+  height: 48px;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-top: 1px solid #000;
+}

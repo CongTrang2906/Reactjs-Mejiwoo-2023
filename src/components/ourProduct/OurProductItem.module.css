@@ -1,0 +1,24 @@
+.image{
+    width: 100%;
+    height: 496px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product-our,
+.price-our{
+    text-align: center;
+}
+.product-our{
+    margin-top: 19px;
+}
+.price-our{
+    margin-top: 4px;
+}
+/* ảnh sẽ phù hợp với màn hình  */
+.product-img-our{   
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,160 @@
+.content-section-singup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.signup-product-all {
+  width: 100%;
+  background-color: #f7f6f0;
+  position: relative;
+}
+.products-signup {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.products-signup::before {
+  content: "";
+  width: 1px;
+  background-color: #190404;
+  height: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.signup-infomation {
+  width: 100%;
+  text-align: left;
+  padding: 162px 45px 161px 158px;
+}
+.title-signup {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+}
+.inf-title-free,
+.inf-title-point,
+.inf-title-voucher,
+.inf-title-upto {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.inf-title-free {
+  margin-top: 60px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.inf-title-point,
+.inf-title-voucher,
+.inf-title-upto {
+  margin-top: 41px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.input-infomation {
+  width: 100%;
+  padding: 158px 171px 158px 86px;
+}
+.input-name,
+.input-adress,
+.input-password {
+  width: 100%;
+  display: flex;
+  padding: 6px 194px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 4px;
+  background: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+.input-name::placeholder,
+.input-adress::placeholder,
+.input-password::placeholder {
+  color: #000;
+}
+.input-adress {
+  margin: 30px 0;
+}
+.input-checkbox {
+  margin-top: 33px;
+  display: flex;
+  justify-content: left;
+  text-align: center;
+}
+.input-checkbox input {
+  width: 26px;
+  height: 26px;
+}
+.inf-label {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 12px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.btn-signup-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.btn-signup {
+  margin-top: 31.5px;
+  padding: 12px 30px;
+  border-radius: 20px;
+  background: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.btn-signup:hover {
+  background-color: rgba(217, 217, 217, 0.35);
+}
+.lines {
+  margin-top: 23px;
+}
+.or-with-lines::before,
+.or-with-lines::after {
+  content: "";
+  display: inline-block;
+  min-width: 44%;
+  border-top: 1px solid black;
+  margin: 0 10px;
+}
+.btn-signup-google,
+.btn-signup-facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-facebook,
+.btn-google {
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 20px;
+  background: #fff;
+  margin-top: 23px;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.btn-google:hover,
+.btn-facebook:hover {
+  background-color: rgba(217, 217, 217, 0.35);
+}
+.icon-gg,
+.icon-fb {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}

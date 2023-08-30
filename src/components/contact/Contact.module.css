@@ -1,0 +1,108 @@
+.content-contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact-info-all {
+  width: 100%;
+}
+.contact-info-webside {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.about-contact-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.about-follow-us {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.title-contact {
+  margin: 101px 0;
+  text-align: center;
+}
+.title-contact-webside {
+  font-size: 32px;
+  font-weight: 500;
+}
+.title-contact-webside-kr {
+  font-size: 16px;
+  font-weight: 400;
+}
+.title-about-us {
+  margin: 48px 0px 0 112px;
+  text-align: left;
+}
+.title-contact-about-us {
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.title-contact-news,
+.title-contact-official,
+.title-contact-company,
+.title-contact-careers {
+  margin-top: 10px;
+  white-space: nowrap;
+}
+.title-contact-get-help-all {
+  margin: 48px 0 0 77px;
+  text-align: left;
+}
+.title-contact-get-help {
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.title-contact-faq,
+.title-contact-shipping,
+.title-contact-payment,
+.title-contact-returns,
+.title-contact-contact-us {
+  margin-top: 10px;
+  white-space: nowrap;
+}
+.title-contact-follow-us {
+  margin-top: 48px;
+  text-align: left;
+  gap: 6px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.image-contact {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 11px;
+}
+.image-contact a {
+  position: relative;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  background-color: #f7f6f0;
+  cursor: pointer;
+}
+.image-contact a:hover {
+  background-color: rgba(217, 217, 217, 0.35);
+}
+.image-contact img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 8px;
+  top: 8px;
+}
+.terms-conditions-privacy {
+  display: flex;
+  align-items: flex-end;
+  height: 255px;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+}
