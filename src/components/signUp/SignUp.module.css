@@ -99,6 +99,9 @@
   font-size: 16px;
   font-weight: 400;
 }
+.inf-label strong {
+  margin: 0 5px;
+}
 .btn-signup-all {
   display: flex;
   justify-content: center;

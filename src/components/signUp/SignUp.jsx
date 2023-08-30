@@ -61,11 +61,11 @@ const SignUp = () => {
                 name="vehicle1"
                 value="checkbox"
               />
-              <label className={styles["inf-label"]} htmlFor="vehicle1">
+              <div className={styles["inf-label"]} htmlFor="vehicle1">
                 {" "}
-                I agree to all the <strong>Terms</strong> and{" "}
-                <strong>Privacy Policy</strong>
-              </label>
+                I agree to all the <strong>Terms </strong> and{" "}
+                <strong> Privacy Policy</strong>
+              </div>
             </div>
             <div className={styles["btn-signup-all"]}>
               <button className={styles["btn-signup"]}>SIGN UP</button>
